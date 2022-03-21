@@ -1,0 +1,127 @@
+
+.cabeçario{
+    align-items: center;
+    background-color: #f5f5f5 ;
+    display: flex;
+    justify-content: space-around;
+    padding: 2.2rem 0 2.2rem 0;
+}
+.cabeçario__nome{
+    color: black;
+    font-weight: bold;
+
+}
+.cabeçario__nome::before{
+    content: "✰";
+    margin: 5px;
+    color: #0e0e0e;
+}
+.cabeçario__lista{
+    display: flex;
+    list-style: none;
+}
+.cabeçario__link{
+    color: #525252;
+    text-decoration: none;
+    margin: 0 .75rem 0 .75rem;
+}
+.cabeçario__link--mod{
+    color: black;
+    font-weight: bold;
+    stroke: black;
+
+}
+
+.apresentação{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 2.2rem 0 2.2rem 0;
+}
+.apresentação__item{
+    width: 60%;
+    
+}
+.apresentação__titulo{
+    font-size: 3rem;
+    font-weight:bold;
+}
+.apresentação__paragrafo{
+    font-size: 1.288rem;
+    margin-top: 1.75rem;
+}
+.apresentação__imagem--mod{
+    background: url("./imagens/perfil.png.jpg") no-repeat center;
+    background-size: 250px 250px ;
+    width: 250px;
+    height: 250px;
+    border-radius: 80%;
+    object-fit: contain;
+}
+.apresentação__lista-redesocias{
+    display: flex;
+    margin-top: 1rem;
+}
+.apresentação__redesocias-link{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #525252;
+    align-items: center;
+}
+.apresentação__redesocias-link::after{
+content: url(./imagens/flecha.png);
+}
+.Sobremin{
+    background-color:#eaf2fd;
+    padding: 2.2rem 0 2.2rem 0;
+}
+.sobremin__titulo{
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-left: 20vh;
+    margin-bottom: 1rem;
+}
+.sobremin__paragrafos{
+  width: 55%;
+  margin-left: 20vh;
+ 
+}
+.sobremin__conteudo{
+    margin-bottom: .75em;
+}
+.skills,.hobbies{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+
+}
+.skills__titulo , .hobbies__titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align:center;
+    padding-top: 2rem;
+}
+.skills__lista,.hobbies__lista{
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+    padding-bottom:7rem;
+   
+    
+}
+.skills__item,.hobbies__item{
+    background-color: #ffff;
+    height: 20vh;
+    width: 10vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;   
+    margin-left: 25px;
+}
+.skills__imagem,.hobbies__imagens{
+  width: 20px;
+}
+.skills__conteudo,.hobbies__conteudo{
+    padding-top: 12px;
+}
