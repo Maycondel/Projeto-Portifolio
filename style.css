@@ -125,3 +125,167 @@ content: url(./imagens/flecha.png);
 .skills__conteudo,.hobbies__conteudo{
     padding-top: 12px;
 }
+.formaçao{
+background-color: #eaf2fd;
+padding-top: 60px ;
+padding-bottom: 60px ;
+}
+.formaçao__titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+
+    padding-bottom: 30px;
+}
+.formaçao__lista{
+    display: flex;
+    justify-content: center;
+}
+.formaçao__item{
+    margin-left: 1%;
+}
+.formaçao__imagen{
+width: 250px;
+height: 250px;
+background-size: 200px auto;
+background-repeat: no-repeat;
+background-position: center;
+background-color: white;
+
+}
+
+.formaçao__imagen-ufpr{
+    background-image: url(./imagens/ufpr.jfif);
+     
+}
+.formaçao__imagen-alura{
+    background-image: url(./imagens/alura.png);
+ 
+}
+.formaçao__imagen-ufrj{
+    background-image: url(./imagens/ufrj.png);
+}
+.formaçao__subtitulo{
+    font-size: 1.25rem;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.experiencia{
+background-color: #f5f5f5;
+padding-top: 30px;
+padding-bottom: 14px;
+}
+.experiencia__titulo{
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.experiencia__lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.experiencia__item{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+}
+.experiencia__imagen{
+    margin-right: 14px;
+    border: 1px solid ;
+}
+.experiencia__imagen-jogo{
+width: 800px;
+}
+.experiencia__subtitulo{
+    font-size: 1.458rem;
+    font-weight: bolder; 
+    width: 300px;
+    margin-bottom: 10px;
+}
+.experiencia__botao{
+    margin-top: 14px;
+}
+.experiencia__demo{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    width: 9rem;
+    border: none;
+}
+.experiencia__repositorio{
+  
+    color: blue;
+    padding: 10px;
+    width: 9rem;
+    border: 1px solid blue;
+}
+.formulario{
+    background-color: #eaf2fd;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.formulario__conteudo{
+    display: flex;
+    justify-content: center;
+}
+.formulario__conteudo-box{
+width: 60%;
+margin-left: 2%;
+}
+.formulario__titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.formulario__imagen{
+    background-image: url(./imagens/imagem-telefone.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: white;
+    width: 250px;
+}
+.formulario__divisao{
+    margin-bottom: 20px;
+}
+.formulario__label{
+    display: block;
+    position: absolute;
+    margin-left: 16px;
+
+}
+.formulario__campo{
+    width: 67%;
+    padding: 1rem;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    caret-color: red;
+    place-content: center;
+}
+.formulario__campo-mensagem{
+
+}
+.formulario__botao{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    caret-color: red;
+}
+.rodape{
+    padding: 45px;
+}
+.rodape__titulo{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.rodape__paragrafo{
+    text-align: center;
+    font-size: 1.2rem;
+}

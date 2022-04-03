@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <body>
         <header class="cabeçario">
                 <p class="cabeçario__nome">Maicon D. Brito</p>
                 <ul class="cabeçario__lista">
@@ -111,7 +110,109 @@
                 </li>
             </ul>
         </section>
-    </body>
+        <section class="formaçao">
+             <h2 class="formaçao__titulo">Formação Academica</h2>
+             <ul class="formaçao__lista">
+            <li class="formaçao__item">
+
+                    <div class="formaçao__imagen formaçao__imagen-ufpr"  ></div>
+
+                 <h3 class="formaçao__subtitulo">Analise de dados</h3>
+                <p>2018-alura</p>
+            </li>
+
+             <li class="formaçao__item">
+             
+                    <div class="formaçao__imagen formaçao__imagen-alura" > </div>
+              
+               
+                 <h3 class="formaçao__subtitulo">Formação UX Design</h3>
+                 <p>2019-alura</p>
+             </li>
+
+             <li class="formaçao__item">
+              
+                    <div class="formaçao__imagen formaçao__imagen-ufrj" ></div>
+             
+                 
+                 <h3 class="formaçao__subtitulo">Pós-gradução Design</h3>
+                <p>em andamento - UFRG</p>
+             </li>
+             
+            </ul>
+            
+        </section>
+        <section class="experiencia">
+         <h2 class="experiencia__titulo">Experiencia proficional</h2>
+         <ul class="experiencia__lista">
+             <li class="experiencia__item">
+                  <div class="experiencia__imagen ">
+                        <img class="experiencia__imagen-jogo " src="./imagens/criptografia.png" alt="">
+                  </div>
+                  <div>
+                      <h2 class="experiencia__subtitulo"> Decodeficador de Texto</h2>
+                      <p>Challenge alura Decodificador</p>
+                      <div class="experiencia__botao">
+                        <button class="experiencia__repositorio">Repositorio</button>
+                        <button class="experiencia__demo" >Ver demo</button>
+                      </div>
+                  </div>
+             </li>
+
+             <li class="experiencia__item">
+                <div>
+                    <h2 class="experiencia__subtitulo" > Jogo criado com Html css e JavaScript</h2>
+                    <p>Challenge Oracle</p>
+                    <div class="experiencia__botao">
+                        <button class="experiencia__repositorio">Repositorio</button>
+                        <button class="experiencia__demo" >Ver demo</button>
+                    </div>
+                    
+                </div>
+                <div class="experiencia__imagen ">
+                    <img class="experiencia__imagen-jogo" src="./imagens/jogo-forca.png" alt="jogo-forca">
+                </div>
+                
+           </li>
+          
+         </ul>
+        </section>
+        <section class="formulario">
+          
+          <form action="" class="formulario__conteudo">
+            <div class="formulario__imagen"></div>
+            <fieldset class="formulario__conteudo-box">
+                <legend class="formulario__titulo">Contato</legend>
+                <fieldset class="formulario__divisao">
+                    <p>Quer entrar em contato comigo?</p>
+                    <p>Preencha o formulario em baixo e entrarei em contato o  mais rápido possível.</p>
+                </fieldset>
+                <fieldset class="formulario__divisao">
+                    <label for="" class="formulario__label">Nome:</label>
+                    <input type="text" class="formulario__campo" id="nome" placeholder="Digite seu nome"
+                    required>
+                </fieldset>
+                <fieldset class="formulario__divisao">
+                    <label for="" class="formulario__label">E-mail:</label>
+                     <input type="email"  class="formulario__campo" placeholder=" Digite seu E-mail"
+                     required>
+                </fieldset >
+                <fieldset class="formulario__divisao">
+                    <input  class="formulario__campo" type="" placeholder="Assunto">
+                </fieldset>
+                <fieldset class="formulario__divisao">
+               
+                       <textarea   class="formulario__campo formulario__campo-mensagem" type="text" placeholder="Mensagem" name="" id="" cols="10" rows="6"></textarea>
+                </fieldset>
+                   <input type="submit" class="formulario__botao" value="Enviar Mensagem">
+                </fieldset>
+          </form>
+        </section>
+        <footer class="rodape">
+            <h2 class="rodape__titulo">Desenvolvedor: Maicon de Brito Oliveira</h2>
+                <p class="rodape__paragrafo">&copy; copyright 2021</p>
+        </footer>
+        <script src="validaçao--formulario.js"></script>
 </body>
 </html>
 
