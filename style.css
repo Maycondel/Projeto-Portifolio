@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2? family= Glass+Antiqua & display=swap');
+h2{
+    font-family: Glass Antiqua, cursive;
+    color: #355586;
+   
+}
+li{
+    font-family: Glass Antiqua, cursive;
+}
 
 .cabeçario{
     align-items: center;
@@ -7,9 +16,9 @@
     padding: 2.2rem 0 2.2rem 0;
 }
 .cabeçario__nome{
-    color: black;
     font-weight: bold;
-
+    font: swap;
+    font-size: 19px;
 }
 .cabeçario__nome::before{
     content: "✰";
@@ -29,7 +38,16 @@
     color: black;
     font-weight: bold;
     stroke: black;
-
+}
+.cabeçario__link:hover{
+    transition: 500ms;
+    font-size: 22px;
+    border: 2px blue;
+    background-color: #355595;
+    color: white;
+    padding: 5px;
+    text-decoration: overline;
+    
 }
 
 .apresentação{
@@ -139,7 +157,7 @@ padding-bottom: 60px ;
 }
 .formaçao__lista{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .formaçao__item{
     margin-left: 1%;
@@ -155,15 +173,17 @@ background-color: white;
 }
 
 .formaçao__imagen-ufpr{
-    background-image: url(./imagens/ufpr.jfif);
+    background-image: url(./imagens/programacao.svg);
      
 }
 .formaçao__imagen-alura{
     background-image: url(./imagens/alura.png);
+    background-color: #355595;
  
 }
 .formaçao__imagen-ufrj{
-    background-image: url(./imagens/ufrj.png);
+    background-image: url(https://www.alura.com.br/assets/api/formacoes/categorias/branco/front-end.svg);
+
 }
 .formaçao__subtitulo{
     font-size: 1.25rem;
@@ -215,27 +235,51 @@ width: 800px;
     padding: 10px;
     width: 9rem;
     border: none;
+    cursor: pointer;
 }
+.experiencia__demo:hover{
+    font-size: 19px;
+    background: green;
+    text-decoration: solid;
+    transition-duration: 2000ms;
+    color: black;
+}
+
+
+
 .experiencia__repositorio{
   
     color: blue;
     padding: 10px;
     width: 9rem;
     border: 1px solid blue;
+    cursor: pointer;
+}
+.experiencia__repositorio:hover{
+background-color: #355586;
+color: white;
+transition: 2000ms;
+font-size: 19px;
 }
 .formulario{
     background-color: #eaf2fd;
     padding-top: 100px;
     padding-bottom: 50px;
+   
 }
 
 .formulario__conteudo{
     display: flex;
     justify-content: center;
+    height: 500px;
 }
 .formulario__conteudo-box{
 width: 60%;
 margin-left: 2%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
 }
 .formulario__titulo{
     font-size: 2rem;
@@ -251,26 +295,47 @@ margin-left: 2%;
     width: 250px;
 }
 .formulario__divisao{
-    margin-bottom: 20px;
+    position: relative;
+    height: 3rem;
+    
+}
+.formulario__caixa-box{
+    position: relative;
 }
 .formulario__label{
-    display: block;
     position: absolute;
-    margin-left: 16px;
+    left: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.formulario__campo:focus + .formulario__label{
+    top: 0;
+    padding-bottom: 12px;
+	transition: 0.2s;
 
 }
+.formulario__campo::placeholder{
+    color: transparent;
+}
 .formulario__campo{
+
     width: 67%;
-    padding: 1rem;
+    height: 3rem;
     border: none;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     caret-color: red;
     place-content: center;
-}
-.formulario__campo-mensagem{
+   
 
 }
+.formulario__campo:focus{
+    box-shadow: 0 2px 0 0;
+    outline: 0;
+    color: blue;
+}
+
 .formulario__botao{
     background-color: blue;
     color: white;
