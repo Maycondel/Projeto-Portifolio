@@ -6,6 +6,12 @@
        text-align: center;
      
    }
+   .cabeçario__nome{
+       font-size: 2rem;
+   }
+   .cabeçario__link{
+       font-size: 1.5rem;
+   }
    .cabeçario__item{
        margin-top: 15px;
    }
