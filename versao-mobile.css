@@ -22,17 +22,33 @@
     }
     .apresentação{
         width: 100%;
+        flex-direction: column;
     }
     .apresentação__item{
         width: 100%;
+    
     }
     .apresentação__titulo{
         font-size:2rem ;
         text-align: center;
         text-justify:distribute;
     }
+    .box{
+        display: flex;
+        justify-content: center;
+    }
+    .caixa__imagem{
+        border-radius: 50%;
+        overflow: hidden;
+        height: 200px;
+        width:200px;
+        background: white;
+      
+    }
     .apresentação__imagem--mod{
-        display: none;
+     width: 100%;
+    background-size: 100%;
+    background-position:top;
     }
     .apresentação__lista-redesocias{
         flex-wrap: wrap;
@@ -95,17 +111,26 @@
         margin: 18px;
     order: 1;
     }
+    .formulario__conteudo{
+        justify-content: center;
+    }
+    .formulario__titulo{
+        text-align: center;
+    }
     .formulario__imagen{
         display: none;
     }
     .formulario__conteudo-box{
         width: 100%;
+        
     }
     .formulario__campo{
         width: 300px
     }
     .formulario__divisao{
         width: 100%;
+        text-align: center;
     }
+  
 
 }
