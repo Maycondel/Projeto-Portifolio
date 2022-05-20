@@ -115,7 +115,7 @@
     order: 1;
     }
     .formulario__conteudo{
-       
+       justify-content: center;
     }
     .formulario__titulo{
         text-align: center;

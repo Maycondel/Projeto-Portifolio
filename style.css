@@ -306,7 +306,7 @@ justify-content: space-around;
     pointer-events: none;
     position: absolute;
     top: calc(50% - 8px);
-    left: 15px;
+    left: 30px;
     transition: all .1s linear;
     -webkit-transition: all .1s linear;
     -moz-transition: all .1s linear;
