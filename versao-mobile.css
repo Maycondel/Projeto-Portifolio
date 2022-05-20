@@ -28,6 +28,9 @@
         width: 100%;
     
     }
+    .apresentação__redesocias-link{
+        font-size: 20px;
+    }
     .apresentação__titulo{
         font-size:2rem ;
         text-align: center;
@@ -112,7 +115,7 @@
     order: 1;
     }
     .formulario__conteudo{
-        justify-content: center;
+       
     }
     .formulario__titulo{
         text-align: center;
