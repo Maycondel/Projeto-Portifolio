@@ -99,10 +99,10 @@
         display: none;
     }
     .formulario__conteudo-box{
-        width: 90%;
+        width: 100%;
     }
     .formulario__campo{
-        width: 100%;
+        width: 300px
     }
     .formulario__divisao{
         width: 100%;
