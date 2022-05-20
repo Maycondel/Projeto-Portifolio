@@ -311,8 +311,10 @@ justify-content: space-around;
 
 .formulario__campo:focus + .formulario__label{
     top: 0;
+    margin-bottom: 5px;
     padding-bottom: 12px;
 	transition: 0.2s;
+    font-weight: bolder;
 
 }
 .formulario__campo::placeholder{

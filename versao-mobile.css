@@ -70,7 +70,13 @@
     .formaçao__item{
         margin-top: 25px;
     }
- 
+    .skills__item , .hobbies__item{
+
+        align-items: center;
+    }
+    .skills__imagem,.hobbies__imagens{
+        width: 30%;
+    }
     .experiencia__item{
         margin-top: 25px;
         flex-direction: column;
@@ -81,11 +87,25 @@
         
     }
     .order1{
+        margin-top: 18px;
         order: 2;
-        margin: 18px;
+      
     }
     .order2{
         margin: 18px;
     order: 1;
     }
+    .formulario__imagen{
+        display: none;
+    }
+    .formulario__conteudo-box{
+        width: 90%;
+    }
+    .formulario__campo{
+        width: 100%;
+    }
+    .formulario__divisao{
+        width: 100%;
+    }
+
 }
