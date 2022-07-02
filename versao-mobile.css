@@ -1,5 +1,5 @@
 @media screen and (max-width:480px ){
-    
+
    .cabeçario{
        flex-direction: column;
        width: 100%;
@@ -136,4 +136,12 @@
     }
   
 
+}
+
+/* versão a Tablet */
+@media screen and (min-width:900),(max-width:1800) {
+
+    .cabeçario{
+        width: 100%;
+    }
 }
